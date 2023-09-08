@@ -1,0 +1,42 @@
+.input {
+    border: none;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+    width: 100%;
+  }
+  .input::placeholder {
+    color: #b4b5b5;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  
+  .input-label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 20px;
+    color: #000;
+    font-weight: 500;
+    pointer-events: none;
+  }
+  .input-label-n {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 20px;
+    color: #000;
+    font-weight: 500;
+    pointer-events: none;
+  }
+  .CommentBox {
+    width: 50%;
+    height: 50%;
+    border: none;
+    border-radius: 22px;
+  }
+  .custom {
+    margin-right: 10px !important;
+  }

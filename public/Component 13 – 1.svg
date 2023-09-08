@@ -1,0 +1,15 @@
+<svg id="Component_13_1" data-name="Component 13 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="54" viewBox="0 0 65 54">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2469fb"/>
+      <stop offset="1" stop-color="#252cc7"/>
+    </linearGradient>
+  </defs>
+  <g id="Rectangle_4164" data-name="Rectangle 4164" stroke="#707070" stroke-width="0.25" fill="url(#linear-gradient)">
+    <rect width="65" height="54" rx="10" stroke="none"/>
+    <rect x="0.125" y="0.125" width="64.75" height="53.75" rx="9.875" fill="none"/>
+  </g>
+  <g id="loader-icon" transform="translate(16.438 10.864)">
+    <path id="Path_24247" data-name="Path 24247" d="M24.885,3.817A4.206,4.206,0,1,1,20.68,8.022a4.206,4.206,0,0,1,4.205-4.205ZM28.7,13.688a3.427,3.427,0,1,0,3.428,3.427A3.428,3.428,0,0,0,28.7,13.688Zm-3.974,9.923A2.393,2.393,0,1,0,27.116,26a2.394,2.394,0,0,0-2.393-2.393Zm-9.155,3.873a2.394,2.394,0,1,0,2.393,2.393,2.394,2.394,0,0,0-2.393-2.393ZM6.212,23.862a2.243,2.243,0,1,0,2.242,2.243,2.243,2.243,0,0,0-2.242-2.243ZM2.389,14.411A2.388,2.388,0,1,0,4.777,16.8a2.389,2.389,0,0,0-2.388-2.389ZM6.212,4.471A3.022,3.022,0,1,0,9.233,7.494,3.023,3.023,0,0,0,6.212,4.471ZM15.585,0a3.639,3.639,0,1,0,3.639,3.639A3.64,3.64,0,0,0,15.585,0Z" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>
