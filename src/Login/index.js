@@ -76,13 +76,15 @@ password:'',
             >
               <p className="text-secondary me-4">Forget Password</p>
             </div>
+            <Link to="/Dashbord" onClick={handleInput} >
+
             <button className="Signin-btn">
               {" "}
-              <Link to="/Dashbord" >
                 {" "}
                 Sign In{" "}
-              </Link>
             </button>
+            </Link>
+
             <p className="text-secondary mt-3">
               Don't have an account?{" "}
               <Link to="/SignUp" className="text-secondary">

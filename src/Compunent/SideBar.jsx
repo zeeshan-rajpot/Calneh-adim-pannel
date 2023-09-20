@@ -25,6 +25,8 @@ const Sidebar = (props) => {
   };
 
   const renderNavItem = (item) => (
+    <Link to={item.link}>
+   
     <div
       key={item.id}
       className={`d-flex align-items-center justify-content-start mt-2 ps-4 ${
@@ -40,7 +42,6 @@ const Sidebar = (props) => {
         />
     
 
-      <Link to={item.link}>
         <p
           className={`ps-2 pt-3 pb-0 mt-0 text-secondary ${
             activeTab === item.id ? "active-tabbbb" : ""
@@ -48,8 +49,9 @@ const Sidebar = (props) => {
         >
           <b>{item.text}</b>
         </p>
-      </Link>
+
     </div>
+    </Link>
   );
 
   return (
@@ -59,8 +61,9 @@ const Sidebar = (props) => {
           className="d-flex align-items-start justify-content-between flex-column pt-3"
           style={{ height: "100vh" }}
         >
-          <div className="text-center">
-            <img src="/logo.svg" className="mb-4" />
+          <div className="te">
+            <img src="/logo.svg" className="mb-4 text-center ms-5" />
+  
 
             {navItems.map((item) => renderNavItem(item))}
           </div>
